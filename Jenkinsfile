@@ -16,6 +16,7 @@ node {
             cd ${appDir}
             npm install
             npm run build
+            npm start
         """
     }
 }
